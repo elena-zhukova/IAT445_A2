@@ -11,6 +11,7 @@ public class Destruct : MonoBehaviour
         if (collision.gameObject.tag.Equals("DestructTrigger"))
         {
             Destroy(collision.gameObject);
+            Debug.Log("Destroyed");
         }
     }
 
